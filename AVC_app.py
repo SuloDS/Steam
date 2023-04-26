@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import pickle
+import sklearn
 import joblib
 from sklearn.preprocessing import StandardScaler
 st.title(':blue[Acidente Vascular Cerebral (AVC)]')
