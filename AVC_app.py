@@ -29,7 +29,7 @@ st.markdown(f'<p style="font-size: 18px;">{texto}</p>', unsafe_allow_html=True)
 
 def user_input_features():
     idade = st.sidebar.number_input('Insira a sua idade (idade.00): ')
-    sexo = st.sidebar.selectbox('Insira o seu sexo (0=Mulher, 1=Homen): ', (0, 1))
+    sexo = st.sidebar.selectbox('Insira o seu sexo (0=Femenino, 1=Masculino): ', (0, 1))
     hipertesao = st.sidebar.selectbox('Você é hipertenso (0=não, 1=sim) : ', (0, 1))
     doenca_cardiaca = st.sidebar.selectbox('Você tem histórico ou possui alguma doença cardíaca  (0=não, 1=sim): ',(0, 1))
     ja_casado = st.sidebar.selectbox('Voce é casado (0=não, 1=sim):', (0, 1))
